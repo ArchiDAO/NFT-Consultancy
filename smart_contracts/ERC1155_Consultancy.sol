@@ -22,6 +22,7 @@ contract MyToken is ERC1155, Ownable {
     // Service tip jar 
     // IPFS Conection
     // Set Metadata
+    // Burn function after the NFT is consumed
 
     constructor() ERC1155("https://api.mysite.com/tokens/{id}") {}
 
